@@ -3,3 +3,6 @@ elpa/
 .lsp*
 history
 #*
+savefile/
+transient/
+*.eld

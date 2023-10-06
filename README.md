@@ -72,4 +72,30 @@ This is (probably) every package that's specified in `packages.el`.
   + Use a starter kit like Doom Emacs or Spacemacs if it makes it easier.
   + Watch YouTube tutorials - I recommend System Crafters and DistroTube.
   + Read some Emacs Lisp tutorials - learning Elisp is paramount for a good Emacs config.
-  + If you know Vim, try `evil-mode`. (Don't use `viper-mode`.)
+  + If you know Vim, try `evil-mode`. (Don't use `viper-mode`, it's outdated as hell and isn't as nice as `evil`.)
+
+  `u128` answer: To get Emacs, first go to [the Emacs website](https://gnu.org/software/emacs). Click whatever OS is there. Follow the instructions. Once Emacs is installed, open it up. It'll be in your Start Menu/Applications folder/just run it in the terminal.
+  
+  Emacs will then be open. Once Emacs is open, you can do `C-x C-f` to open `find-file` in the minibuffer.
+  
+  By the way, the minibuffer is that bit at the bottom of the Emacs frame. By the way, the frame is what lesser beings refer to as a "window". By the way, a "window" is something completely different in Emacs- oh god, I've gone cross-eyed.
+  
+  Once you've `C-x C-f`'d, type in `~/.emacs.d/init.el`. `~` means your home directory. On Windows that's usually `C:\Users\<username\`. On macOS that's `/Users/<username>/`. On Linux it's usually `/home/<username>/`.
+  
+  Then hit `RET`. `RET` is Enter/Return.
+  
+  Once you hit `RET` you will be editing your Emacs init-file. You can enter something, like this:
+  
+  ```emacs-lisp
+  (setq some-variable "some-value")
+  ```
+  
+  Congratulations, you just made an Emacs variable! Now you can use that somewhere else, like so:
+  
+  ```emacs-lisp
+  (message some-variable) ;; will print "some-value" in the minibuffer
+  ```
+  
+  Okay, I'm bored of teaching you, and this has gone on `u128` enough.
+
+  `u256` answer: Okay COME ON, that's NOT EVEN A VALID RUST DATA TYPE

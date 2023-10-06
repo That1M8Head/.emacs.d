@@ -8,6 +8,9 @@
   (package-refresh-contents)
   (package-install 'use-package))
 
+(eval-when-compile
+  (require 'use-package))
+
 (use-package adaptive-wrap
   :ensure t
   :hook (visual-line-mode . adaptive-wrap-prefix-mode))

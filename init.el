@@ -12,9 +12,6 @@
 (setq-default custom-file "~/.emacs.d/custom.el")
 (setq-default backup-directory-alist `(("." . "~/.saves")))
 
-(eval-when-compile
-  (require 'use-package))
-
 (tool-bar-mode 0)
 (menu-bar-mode 0)
 (scroll-bar-mode 0)

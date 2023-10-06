@@ -7,6 +7,7 @@
 (load "~/.emacs.d/packages.el")
 (load "~/.emacs.d/functions.el")
 
+(setq-default custom-safe-themes t)
 (setq-default custom-file "~/.emacs.d/custom.el")
 (setq-default backup-directory-alist `(("." . "~/.saves")))
 

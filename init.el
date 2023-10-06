@@ -4,6 +4,9 @@
 
 (setq initial-buffer-choice "~/.emacs.d/startup.md")
 
+(setq main-font "JetBrains Mono"
+      variable-font "Roboto Slab")
+
 (load "~/.emacs.d/packages.el")    ;; Configures packages through use-package
 (load "~/.emacs.d/functions.el")   ;; Editing commands and stuff
 (load "~/.emacs.d/keybinds.el")    ;; Key bindings, usually with the <C-c> prefix

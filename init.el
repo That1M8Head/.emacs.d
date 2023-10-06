@@ -25,22 +25,32 @@
 (electric-pair-mode 1)
 (electric-quote-mode 1)
 
+(defun disable-electric-quote-mode ()
+  (electric-quote-mode -1))
+
+(add-hook 'markdown-mode-hook #'disable-electric-quote-mode)
+
 (setq-default tab-width 4
               indent-tabs-mode nil
               c-default-style "linux"
               c-basic-offset 4)
 
+(setq chosen-font "JetBrains Mono")
+
 (set-face-attribute 'default nil
-                    :font "JetBrains Mono"
+                    :font chosen-font
+                    :height 110)
+
+(set-face-attribute 'fixed-pitch nil
+                    :font chosen-font
                     :height 110)
 
 (set-face-attribute 'hl-line nil
-                    :font "JetBrains Mono"
-                    :height 110
+                    :inherit 'highlight
+                    :font chosen-font
                     :weight 'bold)
 
 (set-face-attribute 'help-key-binding nil
                     :inherit 'default
                     :background "grey90"
                     :box '(:line-width (4 . 2) :color "grey90"))
-

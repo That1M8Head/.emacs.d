@@ -73,6 +73,17 @@
   :config
   (global-set-key (kbd "C-x o") 'switch-window))
 
+(use-package affe
+  :ensure t)
+
+(use-package doom-themes
+  :ensure t)
+
+(use-package marginalia
+  :ensure t
+  :init
+  (marginalia-mode))
+
 (use-package ligature
   :ensure t
   :config

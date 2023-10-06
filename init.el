@@ -1,5 +1,7 @@
 ;;; init.el - My Emacs config
 
+(prefer-coding-system 'utf-8)
+
 (setq initial-buffer-choice "~/.emacs.d/startup.md")
 
 (load "~/.emacs.d/packages.el")

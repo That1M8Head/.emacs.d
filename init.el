@@ -45,8 +45,6 @@
                     :height 110)
 
 (set-face-attribute 'hl-line nil
-                    :inherit 'highlight
-                    :font chosen-font
                     :weight 'bold)
 
 (set-face-attribute 'help-key-binding nil

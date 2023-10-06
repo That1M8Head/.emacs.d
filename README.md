@@ -1,4 +1,4 @@
-# Velocity’s Emacs Config
+# Velocity's Emacs Config
 
 Yes, it’s another bloody Emacs config.
 
@@ -20,17 +20,17 @@ Of course, that implies you, the reader, will use this config. And you probably 
 
 * Why Emacs?
 
-Yes.
-
+  Yes.
+  
 * How do I learn Emacs?
 
-Short answer: You just do.
+  Short answer: You just do.
 
-Long (`i32`) answer: No, really. You just do.
+  Long (`i32`) answer: No, really. You just do.
 
-`i64` answer: I'm serious. You just learn it.
+  `i64` answer: I'm serious. You just learn it.
 
-`u64` answer: Alright, fine. Here's how:
+  `u64` answer: Alright, fine. Here's how:
 
   + Use a starter kit like Doom Emacs or Spacemacs if it makes it easier.
   + Watch YouTube tutorials - I recommend System Crafters and DistroTube.

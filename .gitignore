@@ -6,3 +6,5 @@ history
 savefile/
 transient/
 *.eld
+server/
+url/

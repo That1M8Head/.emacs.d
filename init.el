@@ -6,6 +6,7 @@
 
 (load "~/.emacs.d/packages.el")
 (load "~/.emacs.d/functions.el")
+(load "~/.emacs.d/keybinds.el")
 
 (setq-default custom-safe-themes t)
 (setq-default custom-file "~/.emacs.d/custom.el")

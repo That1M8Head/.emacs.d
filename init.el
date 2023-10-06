@@ -4,16 +4,15 @@
 
 (setq initial-buffer-choice "~/.emacs.d/startup.md")
 
-(load "~/.emacs.d/packages.el"    ;; Configures packages through use-package
-      "~/.emacs.d/functions.el"   ;; Editing commands and stuff
-      "~/.emacs.d/keybinds.el"    ;; Key bindings, usually with the <C-c> prefix
-      "~/.emacs.d/faces.el"       ;; Fonts and all that
-      "~/.emacs.d/options.el"     ;; Customising the UI and other options
-      )      
-
-(setq-default custom-safe-themes t)
-(setq-default custom-file "~/.emacs.d/custom.el")
-(setq-default backup-directory-alist `(("." . "~/.saves")))
+(load "~/.emacs.d/packages.el")    ;; Configures packages through use-package
+(load "~/.emacs.d/functions.el")   ;; Editing commands and stuff
+(load "~/.emacs.d/keybinds.el")    ;; Key bindings, usually with the <C-c> prefix
+(load "~/.emacs.d/options.el")     ;; Customising the UI and other options
+(load "~/.emacs.d/faces.el")       ;; Fonts and all that
+   
+(setq-default custom-safe-themes t
+              custom-file "~/.emacs.d/custom.el"
+              backup-directory-alist `(("." . "~/.saves")))
 
 ;; Below this point is unsorted stuff that I can’t be bothered to sort
 

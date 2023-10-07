@@ -8,4 +8,9 @@
 * M-x will open up the Execute Extended Command window.
 * C-g will quit out of anything.
 
+## Config-specific commands
+
+* C-c e will evaluate the current buffer as if it were Emacs Lisp.
+* C-c t will open the theme switcher.
+
 Enjoy your stay.

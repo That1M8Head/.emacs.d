@@ -87,6 +87,9 @@
   :init
   (marginalia-mode))
 
+(use-package magit
+  :ensure t)
+
 (use-package ligature
   :ensure t
   :config
